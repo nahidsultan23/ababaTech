@@ -37,3 +37,4 @@ For Front-end:
 3. Start the app using the command "npm start".
 4. The app will start on 3000 port by default.
 5. To see the app, go to the url http://localhost:3000
+6. Log in to the website by using the email and password inserted by the "dummy" module from the "Postman".
