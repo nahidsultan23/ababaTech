@@ -1,0 +1,16 @@
+.loading {
+    margin: auto;
+}
+
+.inner_loading {
+    color: white;
+}
+
+.loading_inline_block {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.loading_text_space {
+    margin-left: 10px;
+}

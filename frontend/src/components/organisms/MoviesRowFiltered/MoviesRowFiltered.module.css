@@ -1,0 +1,80 @@
+.moviesRow {
+    border-radius: 10px;
+    transition: 0.3s;
+    position: relative;
+    margin-bottom: 10px;
+    display: inline-block;
+    padding: 5px 8px;
+}
+
+.moviesRow img:hover {
+    transform: scale(1.1);
+    border: 1px solid #222;
+}
+
+.fav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: var(--second-color);
+    padding: 5px;
+    border-radius: 0px 0px 10px 0px;
+    cursor: pointer;
+    backdrop-filter: blur(10px);
+}
+
+.fav .MuiSvgIcon-root:hover {
+    color: var(--second-color);
+}
+
+.moviesRow img {
+    max-height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.movie__info {
+    display: flex;
+    flex-direction: column;
+}
+
+.movie__name {
+    white-space: nowrap;
+}
+
+.movie__name h3 {
+    margin: 5px 0;
+    color: var(--fourth-color);
+    font-size: 14px;
+}
+
+.movie__other {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.movie__other p:nth-child(1) {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    gap: 8px;
+    color: var(--fourth-color);
+}
+
+.movie__other span {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    color: gold;
+}
+
+.movie__other p:nth-child(2) {
+    font-size: 12px;
+    padding: 2px;
+    color: var(--fourth-color);
+    text-transform: capitalize;
+    border: 1px solid gray;
+}
