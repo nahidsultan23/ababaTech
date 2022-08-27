@@ -163,7 +163,7 @@ export const Login = () => {
                                 >
                                     {loading && <CircularProgress size={14} />}
                                     <span className={styles.sign_in}>
-                                        Sign In
+                                        Log in
                                     </span>
                                 </Button>
                                 <div className={styles.error_message_server}>
