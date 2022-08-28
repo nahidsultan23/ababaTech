@@ -29,6 +29,7 @@ For Server (backend):
    Request method: POST
    By default, SERVER_URL = http://localhost:5000
 9. Now everything is ready for the front-end.
+10. To fetch images, a cloud storage is needed to store the images and provide image urls. But for this small project, no cloud storage has been used. The images have been saved with the front-end and being fetched from there as a temporary solution.
 
 For Front-end:
 
@@ -38,3 +39,4 @@ For Front-end:
 4. The app will start on 3000 port by default.
 5. To see the app, go to the url http://localhost:3000
 6. Log in to the website by using the email and password inserted by the "dummy" module from the "Postman".
+7. Some of the items in the sidebar have been added just for design purpose. They are not functional in this project. Clicking on them will redirect the user to "Page not found" page.
