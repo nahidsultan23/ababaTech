@@ -29,7 +29,8 @@ For Server (backend):
    Request method: POST
    By default, SERVER_URL = http://localhost:5000
 9. Now everything is ready for the front-end.
-10. To fetch images, a cloud storage is needed to store the images and provide image urls. But for this small project, no cloud storage has been used. The images have been stored in the front-end and being fetched from there as a temporary solution.
+10. To run the automated unit tests, run the command "npm test".
+11. To fetch images, a cloud storage is needed to store the images and provide image urls. But for this small project, no cloud storage has been used. The images have been stored in the front-end and being fetched from there as a temporary solution.
 
 For Front-end:
 

@@ -1,6 +1,6 @@
 import * as bcrypt from 'bcryptjs';
 
-export const encryptPassword = async (password: string) => {
+export const encryptPassword = async (password: string): Promise<string> => {
   const saltRounds = 10;
 
   return new Promise((resolve) => {
