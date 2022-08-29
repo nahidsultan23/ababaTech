@@ -8,13 +8,15 @@ export const createGetUrl = (
     let queryString = '';
 
     for (const key in properties) {
-        if (queryString) {
-            queryString += `&${key}=`;
-        } else {
-            queryString += `${key}=`;
-        }
+        if (properties[key]) {
+            if (queryString) {
+                queryString += `&${key}=`;
+            } else {
+                queryString += `${key}=`;
+            }
 
-        queryString += properties[key];
+            queryString += properties[key];
+        }
     }
 
     if (queryString) {
